@@ -1,0 +1,5 @@
+- name: backend configuration
+  hosts: backend
+  become: yes
+  roles:         #insteded of tasks we are mentioning roles here
+  - backend
